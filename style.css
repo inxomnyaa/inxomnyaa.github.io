@@ -97,7 +97,7 @@ nav .cta {
 }
 
 .updates {
-  text-align: initial;
+  text-align: initial !important;
   border: 1px solid rgba(140, 110, 255, 0.35);
   padding: 20px;
   border-radius: 10px;
