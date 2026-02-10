@@ -58,6 +58,7 @@ nav .cta {
   padding: 150px 20px 170px;
   background: url("castle_illustration.webp") /*center/*/cover no-repeat;
   /*background-blend-mode: lighten;*/
+  min-width: fit-content;
   max-width: minmax(max-content,1vw);
   justify-self: left;
   display: inline-block;
@@ -114,13 +115,14 @@ nav .cta {
   border: 1px solid rgba(140, 110, 255, 0.35);
   padding: 20px;
   border-radius: 10px;
+  background: url('bg_updates.jpg') no-repeat center/contain;
 }
 
 .small-btn {
   display: inline-block;
   margin-top: 10px;
   padding: 6px 12px;
-  background: #5c5aff;
+  /*background: #5c5aff;*/
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
