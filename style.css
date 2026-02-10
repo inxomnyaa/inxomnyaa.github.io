@@ -17,6 +17,14 @@ header {
   align-items: center;
 }
 
+header .logo{
+  display: inline-block;
+}
+
+header .logo img{
+  width: clamp(8rem, 1.5rem + 5vw, 10rem);
+  height: auto;
+}
 nav a {
   margin-left: 26px;
   text-decoration: none;
@@ -61,7 +69,8 @@ image-rendering: pixelated;
 }
 
 .hero h1 {
-  font-size: 3.4rem;
+  /*font-size: 3.4rem;*/
+  font-size: clamp(0.7rem, 1.5rem + 5vw, 2rem);
   line-height: 1.2;
   text-shadow: 0 0 12px #4a3cff;
 }
@@ -74,9 +83,9 @@ image-rendering: pixelated;
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
-  border-image: url('button_red.webp') 40 175 40 175 fill / 40px 175px 40px 175px;
-  /*padding: 80px 350px 80px 350px;*/
-  image-rendering: pixelated;
+  border-image: url('button_red.webp') 80 350 80 350 fill / 80px 350px 80px 350px;
+/*padding: 8px;*/
+image-rendering:pixelated;
 }
 
 /* === FEATURES GRID === */
