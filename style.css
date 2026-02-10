@@ -54,7 +54,7 @@ nav .cta {
   padding: 150px 20px 170px;
   background: url("castle_illustration.webp") center/cover no-repeat;
   /*background-blend-mode: lighten;*/
-  width: min-content;
+  width: max-content;
   width: 100%;
   max-width: 1vw;
   justify-self: left;
@@ -97,6 +97,7 @@ nav .cta {
 }
 
 .updates {
+  text-align: initial;
   border: 1px solid rgba(140, 110, 255, 0.35);
   padding: 20px;
   border-radius: 10px;
