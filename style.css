@@ -4,6 +4,8 @@ body {
   background: #0a0820 url("bg_night.webp") center/cover no-repeat fixed;
   font-family: "Cinzel", serif;
   color: #e6e2ff;
+  min-height: 1vh;
+  min-height: 1dvh;
 }
 
 /* === HEADER === */
@@ -20,9 +22,9 @@ header {
 }
 
 header .logo {
-  background: url('title_logo.webp') no-repeat contain;
+  background: url('title_logo.webp') no-repeat contain fixed;
   color: transparent;
-  flex: 0 1 0.2vw;
+  flex: 1 1 0.2dvw;
 }
 
 nav a {
@@ -62,8 +64,8 @@ nav .cta {
 /* === HERO === */
 .hero {
   text-align: center;
-  padding: 150px 20px 170px;
-  background: url("castle_illustration.webp") cover no-repeat;
+  /*padding: 150px 20px 170px;*/
+  background: url("castle_illustration.webp") contain no-repeat;
   background-blend-mode: darken;
   /*min-width: fit-content;*/
   /*max-width: max(max-content,1vw);*/
@@ -72,7 +74,7 @@ nav .cta {
 }
 
 .hero h1 {
-  font-size: clamp(1.5rem, 5vm + 1rem, 3.4rem);
+  font-size: clamp(1.5rem, 5vw + 1rem, 3.4rem);
   line-height: 1.2;
   text-shadow: 0 0 12px #4a3cff;
 }
@@ -110,11 +112,11 @@ nav .cta {
 }
 
 .features #explore {
-  background: url('bg_exploration.jpg') fill/contain no-repeat;
+  background: url('bg_exploration.jpg') contain no-repeat;
 }
 
 .features #elements {
-  background: url('bg_elements.jpg') no-repeat fill/contain;
+  background: url('bg_elements.jpg') no-repeat contain;
 }
 
 .features .updates {
@@ -122,7 +124,7 @@ nav .cta {
   border: 1px solid rgba(140, 110, 255, 0.35);
   padding: minmax(20px, 0.1vw);
   border-radius: 10px;
-  background: url('bg_updates.jpg') no-repeat fill/contain;
+  background: url('bg_updates.jpg') no-repeat contain;
 }
 
 .small-btn {
