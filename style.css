@@ -17,6 +17,10 @@ header {
   align-items: center;
 }
 
+header .logo {
+  background: url('title_logo.webp') no-repeat center/cover;
+}
+
 nav a {
   margin-left: 26px;
   text-decoration: none;
@@ -95,6 +99,14 @@ nav .cta {
 
 .features div {
   text-align: center;
+}
+
+.features #explore {
+  background: url('bg_exploration.jpg') center/contain no-repeat;
+}
+
+.features #elements {
+  background: url('bg_elements.jpg') no-repeat center/contain;
 }
 
 .updates {
