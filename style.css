@@ -75,6 +75,9 @@ nav .cta {
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
+  border-image: url('button_red.webp') 80 350 80 350 fill / 80px 350px 80px 350px;
+  padding: 80px 350px 80px 350px;
+  image-rendering: pixelated;
 }
 
 /* === FEATURES GRID === */
