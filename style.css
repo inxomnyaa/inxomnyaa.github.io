@@ -92,12 +92,12 @@ nav .cta {
   margin-bottom: 8px;
 }
 
-.features > div > * {
+.features > div {
   text-align: center;
 }
 
 .updates {
-  text-align: initial !important;
+  text-align: initial;
   border: 1px solid rgba(140, 110, 255, 0.35);
   padding: 20px;
   border-radius: 10px;
