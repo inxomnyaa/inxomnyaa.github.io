@@ -46,6 +46,8 @@ nav .cta {
   background: #5c5aff;
   padding: 6px 14px;
   border-radius: 6px;
+  /*todo background*/
+
 }
 
 /* === HERO === */
@@ -64,12 +66,15 @@ nav .cta {
 
 .btn {
   display: inline-block;
-  margin-top: 20px;
-  padding: 12px 28px;
-  background: linear-gradient(#aa3a20, #7a1f10);
+  margin-top: 10px;
+  padding: 6px 12px;
+  /*background: linear-gradient(#aa3a20, #7a1f10);*/
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
+  border-image: url('button_red.webp') 40 175 40 175 fill / 40px 175px 40px 175px;
+  /*padding: 80px 350px 80px 350px;*/
+  image-rendering: pixelated;
 }
 
 /* === FEATURES GRID === */
@@ -87,20 +92,38 @@ nav .cta {
   margin-bottom: 8px;
 }
 
-.updates {
+.features div {
+  text-align: center;
+}
+
+.features #explore {
+  background: url('bg_exploration.jpg') no-repeat center/contain;
+}
+
+.features #elements {
+  background: url('bg_elements.jpg') no-repeat center/contain;
+}
+
+.features .updates {
+  text-align: initial !important;
   border: 1px solid rgba(140, 110, 255, 0.35);
   padding: 20px;
   border-radius: 10px;
+  background: url('bg_updates.jpg') no-repeat center/contain;
 }
 
 .small-btn {
   display: inline-block;
   margin-top: 10px;
   padding: 6px 12px;
-  background: #5c5aff;
+  /*background: #5c5aff;*/
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
+    border-image: url('button_green.webp') 80 350 80 350 fill / 80px 350px 80px 350px;
+      /*padding: 8px;*/
+        image-rendering:pixelated;
+
 }
 
 /* === DECORATIVE CORNERS === */
