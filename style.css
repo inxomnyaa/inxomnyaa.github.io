@@ -91,6 +91,7 @@ image-rendering: -moz-crisp-edges;
   /*width: fit-content;*/
   background: url("castle_illustration.webp") center/cover no-repeat fixed;
   background-blend-mode: lighten;
+  background-position-y: 25px;
   border: solid green 2px;
 }
 .hero > div{
