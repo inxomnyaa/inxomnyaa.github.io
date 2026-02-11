@@ -77,16 +77,27 @@ image-rendering: -moz-crisp-edges;
 
 /* === HERO === */
 .hero {
-  display: inline-flex;
+  display: flex;
   text-align: center;
   /*padding: 150px 20px 170px;*/
-  flex-direction: column;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-evenly;
   /*height: 0.5vh;
   height: 0.5dvh;*/
   /*width: fit-content;*/
   background: url("castle_illustration.webp") center/cover no-repeat fixed;
   background-blend-mode: lighten;
   border: solid green 2px;
+}
+.hero > div{
+  display: inline-flex;
+  /*padding: 150px 20px 170px;*/
+  flex-direction: column;
+  /*height: 0.5vh;
+  height: 0.5dvh;*/
+  /*width: fit-content;*/
+  border: solid hotpink 2px;
 }
 
 .hero h1 {
