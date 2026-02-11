@@ -125,8 +125,8 @@ image-rendering:pixelated;
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 30px;
-  /*padding: 70px 40px;*/
+  gap: 20px;
+  padding: 20px 30px;
   background: rgba(18, 15, 50, 0.6);
   backdrop-filter: blur(4px);
 }
@@ -138,6 +138,12 @@ image-rendering:pixelated;
 
 .features div {
   text-align: center;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  top:-10px;
+  border: 1px solid rgba(140, 110, 255, 0.35);
+  border-radius: 10px;
 }
 
 .features #explore {
@@ -148,12 +154,13 @@ image-rendering:pixelated;
   background: url('bg_elements.jpg') no-repeat center/contain;
 }
 
-.features .updates {
-  text-align: initial !important;
-  border: 1px solid rgba(140, 110, 255, 0.35);
-  padding: 20px;
-  border-radius: 10px;
+.features #updates{
   background: url('bg_updates.jpg') no-repeat center/contain;
+}
+
+.features #updates p {
+  text-align: initial !important;
+  padding-left: 100px;
 }
 
 .small-btn {
