@@ -29,10 +29,10 @@ header .logo{
   flex-grow: 0;
 }
 nav {
-  display: flex;
-  gap: 26px;
+  display: inline-flex;
   row-gap: 5px;
-  justify-content: space-evenly;
+  column-gap: 26px;
+  justify-content: space-around;
   flex-wrap: nowrap;/*wrap for hamburger*/
   flex-direction: row;/*column for hamburger*/
   align-items: center;
