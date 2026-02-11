@@ -156,12 +156,21 @@ image-rendering:pixelated;
 
 .features #updates{
   /*background: url('bg_updates.jpg') no-repeat center/contain;*/
-  border-image: url('bg_updates.jpg') 20 20 20 20 fill / 20px 20px 20px 20px;
+  border-image: url('bg_updates.jpg') 4 4 4 4 fill / 4px 4px 4px 4px;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .features #updates p {
   text-align: initial !important;
-  padding-left: 100px;
+  padding-left: 130px;
+  font-size: 0.9rem;
+}
+
+.features #updates h3 {
+  line-height: 1.3rem;
+  padding-top: 5px;
 }
 
 .small-btn {
